@@ -1,4 +1,4 @@
-# Master thesis "Modelling cancer evolution *in vitro* using tissue-derived gastric organoids"
+# Master thesis: "Modelling cancer evolution *in vitro* using tissue-derived gastric organoids"
 
 ## Author: Moritz J. Przybilla
 
