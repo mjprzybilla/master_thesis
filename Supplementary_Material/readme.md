@@ -7,3 +7,23 @@
 **LSI_03_Clustering_UMAP_Zhang_v2.R** - Script for clustering of the scRNA-seq data from Zhang et al., generated with *LSI_01_Seurat_ZhangEtal.R*, which are then subsequently visualized using UMAP. The UMAP representation is then saved for the projection in *LSI_04_Project_Zhang_w_EL_Organoids.R*. This script generates Supplementary Figure 12a and Supplementary Figure 13a.
 
 **LSI_04_Project_Zhang_w_EL_Organoids.R** - Here, the LSI projection itself is implemented. This script projects each individual organoid clone at the *Early* and *Late* time point into the gastric dataset form *LSI_03_Clustering_UMAP_Zhang_v2.R*. Subsequently, the nearest neighbors are quantified and used to quantify the NN cell type frequency. This script generates Supplementary Figure 12b and Supplementary Figure 12c, as well as Supplementary Figure 13b-d.
+
+**ECB_01_inferCNV_prepare_Seq8_input.R** - R script that takes the count matrix from Seurat, after the removal of bad quality cells and wrangles it into shape for the analysis script. Here, data from Sequencing 8, corresponding to D2C2 replicate 2 at day 168 is specifically used.
+
+**ECB_02_inferCNV_analysis.R** - R script with the commands to run inferCNV.
+
+**ECB_03_sbatch_Seq8_inferCNV.sh** - Bash script to run inferCNV on the data from D2R2 replicate 2 at day 168 on a slurm cluster.
+
+**ECB_04_Seq8_ECB_heatmaps.R** - Script to re-plot the inferCNV output with cells ordered according to their cell-subclone-relationship for data from Sequencing 8. The resulting heatmap is shown in Figure 15b.
+
+**ECB_05_Seq8_ECB_heatmap_chr.R** - Script to plot a zoom-in of specific chromosomes from D2C2 replicate 2 day 168, that show copy number alterations between the winning subclone and the base-line subclone. The zoom-in is represented in Figure 15d.
+
+**ECB_06_Seq8_DEG_analysis.R** - Script for the performance of differential gene expression analysis between individual subclones from the expressed cellular barcode system (ECB). Here, Sequencing 8 is used. Further, the proportion of differential expressed genes, and gene set enrichment analysis is performed. The results from this script are shown in Figure 15e-g. 
+
+**CNV_03_inferCNV_prepare_Seq8_input.R** - R script that takes the count matrix from Seurat, after the removal of bad quality cells and wrangles it into shape for the *CNV_04_inferCNV_analysis.R* script. Here, data from Sequencing 8, corresponding to D2C2 replicate 2 at day 168, is used.
+
+**CNV_04_inferCNV_analysis.R** - R script with the commands to run inferCNV.
+
+**CNV_05_sbatch_Seq8_inferCNV.sh** - Bash script to run inferCNV on the data from D2C2 replicate 2 at day 168 on a slurm cluster.
+
+**CNV_11_Seq8_ECB_heatmaps.R** - Script to re-plot the inferCNV output in a format which is overlapping with scDNA and CONICSmat. The representation is shown in Figure 13b.
