@@ -1,4 +1,4 @@
-# Tracking copy number evolution over time
+# Inferring fitness effects from copy number alterations through time
 
 **ECB_01_inferCNV_prepare_Seq8_input.R** - R script that takes the count matrix from Seurat, after the removal of bad quality cells and wrangles it into shape for the analysis script. Here, data from Sequencing 8, corresponding to D2C2 replicate 2 at day 168 is specifically used.
 
