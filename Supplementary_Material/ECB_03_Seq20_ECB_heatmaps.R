@@ -1,6 +1,6 @@
 ################################################################################################################################################
 ##                                                                                                                      
-##  Plot subset of gene expression matrix based on the source code from honeybadger (credit to Jean Fan)                                                                 
+##  Plot subset of gene expression matrix based on the source code from honeybadger (credit to Jean Fan) from Sequencing 20                                                            
 ##                                                                                                                      
 ##  Date: 11 April 2020                                                                                                                    
 ##  
