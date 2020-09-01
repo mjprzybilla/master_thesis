@@ -1,6 +1,6 @@
 #############################################################################################################################
 ##                                                                                                                      
-##  Analysis of single-cell RNA-seq data from Early & Late organoids using Seurat
+##  Analysis of single-cell RNA-seq data from premalignant gastric tissue by Zhang et al. using Seurat
 ##                                                                                                                      
 ##  Date: 23 July 2020                                                                                                                    
 ##  
