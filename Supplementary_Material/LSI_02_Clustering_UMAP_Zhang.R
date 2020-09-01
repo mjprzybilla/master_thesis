@@ -1,6 +1,6 @@
 #############################################################################################################################
 ##                                                                                                                      
-##  Perform clustering and umap embedding on 10x single-cell RNA-sequencing data
+##  Perform clustering and umap embedding on preprocessed 10x single-cell RNA-sequencing data from Zhang et al.
 ##
 ##  Date: 16 May 2020                                                                                                                   
 ##  
