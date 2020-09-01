@@ -16,7 +16,7 @@
 
 **ECB_08_sbatch_Seq18_inferCNV.sh** - Bash script to run inferCNV on the data from D3C2 replicate 1 at day 168 on a slurm cluster.
 
-**ECB_09_Seq18_ECB_heatmaps.R** - Script to re-plot the inferCNV output with cells ordered according to their cell-subclone-relationship for data from Sequencing 18. The resulting heatmap is shown in Figure 16b.
+**ECB_09_Seq18_ECB_heatmaps.R** - Script to re-plot the inferCNV output with cells ordered according to their cell-subclone-relationship for data from Sequencing 18. The resulting heatmaps are shown in Figure 16b and Supplementary Figure 5.
 
 **ECB_10_Seq18_ECB_heatmap_chr.R** - Script to plot a zoom-in of specific chromosomes from D3C2 replicate 1 day 168, that show copy number alterations between the winning subclone and the base-line subclone. The zoom-in is represented in Figure 16d.
 
