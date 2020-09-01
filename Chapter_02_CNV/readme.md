@@ -4,6 +4,8 @@
 
 **CNV_02_CONICSmat_heatmap.R** - Script to re-plot the normalized gene expression data from CONICSmat to the common format used in Figure 13c of the Results section.
 
+**CNV_03_WGS_CN.R** - Script to visualize the results from shallow WGS for D2R2 day 168, 245 and 315 in Figure 12b.
+
 **CNV_03_Method_Stats.R** - Script to compare the output from CONICSmat, HoneyBADGER and inferCNV to each other and assess the normalization quality. The results of this comparison are visualized in Figure 11c and 11d.
 
 **CNV_04_Pseudobulk_Correlation.R** - Script to assess the performance of each method in comparison to the copy number estimations from shallow whole genome sequencing (sWGS). Here, pseudo-bulk modified expression is compared to logR values per gene. The output of this script is depicted in Figure 12c as well as Supplementary Figure 2.
