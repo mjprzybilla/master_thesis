@@ -1,9 +1,9 @@
 # LSI projection into gastric tissue to assess early malignant development of gastric organoids
 
-**LSI_01_COMBAT.R** - Script for the removal of the organoid-specific gene signature by using reference data from Zhang et al.
+**LSI_01_Seurat_SatheEtal.R** - Script to re-analyze the publicly available dataset from Sathe et al., 2020, Clinical Cancer Research using Seurat (<https://clincancerres.aacrjournals.org/content/clincanres/early/2020/04/03/1078-0432.CCR-19-3231.full.pdf>).
 
-**LSI_02_SatheEtal.R** - Script for clustering of the scRNA-seq data from Sathe et al., which are then subsequently visualized using UMAP. The UMAP representation is then saved for the projection in *LSI_03_Projection.R*. This script generates Figure 20b.
+**LSI_02_COMBAT.R** - Script for the removal of the organoid-specific gene signature by using reference data from Zhang et al.
 
-**LSI_03_Projection.R** - Here, the LSI projection is implemented. This script projects each individual organoid clone and the *Early* and *Late* time point into the gastric dataset form *LSI_02*. Subsequently, the nearest neighbors are quantified and used to quantify the NN cell type frequency. This script generates Figure 20c and 20d.
+**LSI_03_Clustering_UMAP_Sathe_v2.R** - Script for clustering of the scRNA-seq data from Sathe et al., generated with *LSI_01_Seurat_SatheEtal.R*, which are then subsequently visualized using UMAP. The UMAP representation is then saved for the projection in *LSI_04_Project_Sathe_w_EL_Organoids.R*. This script generates Figure 20b.
 
-**scRNA_03_Seurat_Sathe.R** - Script to re-analyze the publicly available dataset from Sathe et al., 2020, Clinical Cancer Research (<https://clincancerres.aacrjournals.org/content/clincanres/early/2020/04/03/1078-0432.CCR-19-3231.full.pdf>).
+**LSI_04_Project_Sathe_w_EL_Organoids.R** - Here, the LSI projection itself is implemented. This script projects each individual organoid clone at the *Early* and *Late* time point into the gastric dataset form *LSI_03_Clustering_UMAP_Sathe_v2.R*. Subsequently, the nearest neighbors are quantified and used to quantify the NN cell type frequency. This script generates Figure 20c and 20d.
