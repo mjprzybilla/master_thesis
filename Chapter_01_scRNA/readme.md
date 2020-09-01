@@ -1,4 +1,4 @@
-# scRNA-seq workflow
+# Assembling a computational workflow for single-cell RNA-sequencing analysis
 
 **scRNA_01_Seurat_ECB.R** - Script to analyze and process the single cell RNA sequencing data containing hashtag and ECB information.
 
