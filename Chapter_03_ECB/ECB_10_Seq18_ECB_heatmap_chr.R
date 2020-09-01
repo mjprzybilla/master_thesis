@@ -1,6 +1,6 @@
 ################################################################################################################################################
 ##                                                                                                                      
-##  Plot subset of gene expression matrix based on the source code from honeybadger (credit to Jean Fan)                                                                 
+##  Plot zoom-in on specific chromosomes from inferCNV for Sequecing 18                                                                 
 ##                                                                                                                      
 ##  Date: 11 April 2020                                                                                                                    
 ##  
