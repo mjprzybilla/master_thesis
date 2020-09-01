@@ -20,4 +20,4 @@ In addition, scripts for running the cellranger pipelines for [scRNA](https://su
 
 **Chapter_05** - Quantifying evolution towards malignancy in Early and Late organoids
 
-**Supplementary** - Additional Figures provided in the Supplementary Material of the thesis.
+**Supplementary_Material** - Additional Figures provided in the Supplementary Material of the thesis.
