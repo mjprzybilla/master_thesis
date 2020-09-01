@@ -1,12 +1,11 @@
 ################################################################################################################################################
 ##                                                                                                                      
-##  Prepare input for inferCNV                                                                                            
+##  Visualize the output from CONICSmat as a heatmap                                                                                          
 ##                                                                                                                      
-##  Date: 11 March 2020                                                                                                                    
+##  Date: 27 July 2020                                                                                                                    
 ##  
 ##  Author: Moritz Przybilla                                                                                                                    
 ##                                                                                                                      
-##  Summary: This script shall produce the inferCNV inputs to use the inferCNV object afterwards.   
 ##           
 ##                                                                                                                      
 ################################################################################################################################################
