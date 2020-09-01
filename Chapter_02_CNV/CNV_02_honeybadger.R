@@ -1,6 +1,6 @@
 #############################################################################################################################
 ##                                                                                                                      
-##  RUN HONEYBADGER ON SEQUENCING 8 CORRESPONDING TO P2C2R2 AT TIMEPOINT 2
+##  RUN HONEYBADGER ON SEQUENCING 8 CORRESPONDING TO D2C2R2 AT TIMEPOINT 2
 ##                                                                                                                      
 ##  Date: 06 August 2020                                                                                                                    
 ##  
