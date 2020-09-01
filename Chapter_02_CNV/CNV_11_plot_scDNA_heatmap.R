@@ -1,6 +1,6 @@
 #############################################################################################################################
 ##                                                                                                                      
-##  Create Heatmap visualization for scCNV data output from construct_ploidyMatrix_scDNA.R                                                                                    
+##  Create Heatmap visualization for scCNV data output from CNV_10_construct_ploidyMatrix_scDNA.R                                                                                    
 ##                                                                                                                      
 ##  Date: 20 April 2020                                                                                                                    
 ##  
