@@ -1,7 +1,6 @@
-#############################################################################################################################
+#################################################################################################################################
 ##                                                                                                                      
-##  Perform clustering and umap embedding on 10x single-cell RNA-sequencing data Clustering and scRNA-seq UMAP for Hematopoiesis data
-##
+##  Perform clustering and umap embedding on 10x single-cell RNA-sequencing from Early and Late organoids with Zhang et al. UMAP
 ##  Date: 16 May 2020                                                                                                                   
 ##  
 ##  Author: Moritz Przybilla
@@ -11,7 +10,7 @@
 ##          mixed phenotype acute leukemia (2019, https://github.com/GreenleafLab/MPAL-Single-Cell-2019). 
 ##
 ##                                                                                                                      
-############################################################################################################################
+#################################################################################################################################
 # clear workspace
 rm(list=ls())
 set.seed(1) # set the seed of random number generator 
