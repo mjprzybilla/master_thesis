@@ -1,18 +1,18 @@
-# Comparison of methods for copy number estimations from scRNA-seq
+# Evaluating the performance of single-cell RNA copy number estimation methods
 
-**CNV_01_CONICSmat.R** - Script to run CONICSmat on the data from D2R2 day 168 data. This script is used to generate Supplementary Figure 3.
+**CNV_01_CONICSmat.R** - Script to run CONICSmat on the data from D2C2 replicate 2 at day 168 data. This script is used to generate Supplementary Figure 3.
 
-**CNV_02_honeybadger.R** - Script to run HoneyBADGER on the data from D2R2 day 168 data.
+**CNV_02_honeybadger.R** - Script to run HoneyBADGER on the data from D2C2 replicate 2 at day 168 data.
 
-**CNV_03_inferCNV_prepare_Seq8_input.R** - R script that takes the count matrix from Seurat, after the removal of bad quality cells and wrangles it into shape for the *CNV_04_inferCNV_analysis.R* script. Here, data from Sequencing 8, corresponding to D2R2 day 168, is used.
+**CNV_03_inferCNV_prepare_Seq8_input.R** - R script that takes the count matrix from Seurat, after the removal of bad quality cells and wrangles it into shape for the *CNV_04_inferCNV_analysis.R* script. Here, data from Sequencing 8, corresponding to D2C2 replicate 2 at day 168, is used.
 
 **CNV_04_inferCNV_analysis.R** - R script with the commands to run inferCNV.
 
-**CNV_05_sbatch_Seq8_inferCNV.sh** - Bash script to run inferCNV on the data from D2R2 day 168 on a slurm cluster.
+**CNV_05_sbatch_Seq8_inferCNV.sh** - Bash script to run inferCNV on the data from D2C2 replicate 2 at day 168 on a slurm cluster.
 
 **CNV_06_Method_Stats.R** - Script to compare the output from CONICSmat, HoneyBADGER and inferCNV to each other and assess the normalization quality. The results of this comparison are visualized in Figure 11c and 11d.
 
-**CNV_07_WGS_CN.R** - Script to visualize the results from shallow WGS (sWGS) for D2R2 day 168, 245 and 315 in Figure 12b.
+**CNV_07_WGS_CN.R** - Script to visualize the results from shallow WGS (sWGS) for D2C2 replicate 2 at day 168, 245 and 315 in Figure 12b.
 
 **CNV_08_Pseudobulk_Correlation.R** - Script to assess the performance of each method in comparison to the copy number estimations from sWGS. Here, pseudo-bulk modified expression is compared to logR values per gene. The output of this script is depicted in Figure 12c as well as Supplementary Figure 2.
 
